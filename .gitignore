@@ -1,0 +1,27 @@
+# Ignore media, images, and document content
+media/*
+images/*
+docs/*
+
+# But keep the folders
+!media/.keep
+!images/.keep
+!docs/.keep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs / environment
+*.log
+.env
+
+# Node / Python (if used later)
+node_modules/
+__pycache__/
+
+# Deployment or build artifacts
+dist/
+build/
